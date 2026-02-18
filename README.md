@@ -1,5 +1,10 @@
 # kubernetes-multi-node-cluster-setup
 
+## Make sure to enable 6443 port in the security group
+
+<img width="1209" height="468" alt="image" src="https://github.com/user-attachments/assets/7fc5e558-ddf7-4c45-8e82-841cbde96663" />
+
+
 ## Create token to join the cluster. 
 kubeadm token create --print-join-command
 <img width="1420" height="88" alt="image" src="https://github.com/user-attachments/assets/0f7a9c18-26f6-45a3-aeb4-1a2a847f73d0" />
@@ -18,3 +23,6 @@ kubeadm join 172.31.32.234:6443 --token ti1dko.2izx151047hz9jkm --discovery-toke
 
 kubectl get --raw='/readyz?verbose'
 <img width="1420" height="746" alt="image" src="https://github.com/user-attachments/assets/10751628-1ab3-467f-8f11-af5cd31807d7" />
+
+
+
