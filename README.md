@@ -44,5 +44,12 @@ kubeadm join 172.31.32.234:6443 --token ti1dko.2izx151047hz9jkm --discovery-toke
 kubectl get --raw='/readyz?verbose'
 <img width="1420" height="746" alt="image" src="https://github.com/user-attachments/assets/10751628-1ab3-467f-8f11-af5cd31807d7" />
 
+## notice the node label 
+
+<img width="1283" height="118" alt="image" src="https://github.com/user-attachments/assets/fac3b412-4d69-4f11-8425-0397bb9ffcac" />
+
+## change the node label
+
+<img width="1256" height="177" alt="image" src="https://github.com/user-attachments/assets/4bdd8dd2-60ec-4536-b796-c20bf1a64043" />
 
 
