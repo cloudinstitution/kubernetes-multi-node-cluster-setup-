@@ -8,3 +8,13 @@ kubeadm token create --print-join-command
 kubeadm join 172.31.32.234:6443 --token ti1dko.2izx151047hz9jkm --discovery-token-ca-cert-hash sha256:0b356dbb5454f7707267e5d674e0f936b1b872c1e76c8950a2b8f27134383ae3
 
 <img width="1420" height="343" alt="image" src="https://github.com/user-attachments/assets/9a14f7a5-c5b8-457f-a40d-b97935f8f56e" />
+
+## Verify the cluster nodes using  # kubectl get nodes
+
+<img width="1358" height="148" alt="image" src="https://github.com/user-attachments/assets/c325c795-680d-4178-a26c-498322ae4c94" />
+
+
+## Verify the cluster components 
+
+kubectl get --raw='/readyz?verbose'
+<img width="1420" height="746" alt="image" src="https://github.com/user-attachments/assets/10751628-1ab3-467f-8f11-af5cd31807d7" />
